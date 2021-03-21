@@ -16,3 +16,9 @@ Gitの練習
 		対象ファイルについての変更を表示
 	git log -n number
 		最新のnumber件の変更を表示
+・git diff
+	ローカルとステージングエリアの差分確認
+	addを実行すると何も表示されない
+	
+  git diff --staged
+	ステージングエリアとコミットの差分
