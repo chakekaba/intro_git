@@ -2,5 +2,17 @@ Gitの練習
 基本的なワークフローを学びます
 ・git add
 ・git commit
+	git commit -v
+		実行中の内容を表示（viエディタでコメントの編集も可能）
 ・git rm
 ・git status
+・git log
+　表示中の画面操作
+　	j,k,q
+　オプション
+	git log --oneline
+		各変更内容を1行で表示
+	git log -p ファイル名
+		対象ファイルについての変更を表示
+	git log -n number
+		最新のnumber件の変更を表示
