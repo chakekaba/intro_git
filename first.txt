@@ -22,3 +22,6 @@ Gitの練習
 	
   git diff --staged
 	ステージングエリアとコミットの差分
+
+・git push origin master
+	リモートリポジトリoriginにローカルmasterブランチの内容を送信
